@@ -21,7 +21,8 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
   - automatically copy intial system configuration and molecule template
     files to directories
   - specify numerous input specifications from http://towhee.sourceforge.net/input/towhee_input_v7_0_x.html 
-     within script using a generic 'towhee_input' file or specify all input in the 'towhee_input' file 
+     within the script itself 
+  - use a generic 'towhee_input' file or specify all input in the 'towhee_input' file 
   - automatically generate necessary 'towhee_parallel' and MPI executable 
     files within T directories for simulations on a cluster
     
@@ -32,4 +33,4 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
     to an output file
 
 ###Contributors
-*Robert Kelly
+Robert Kelly
