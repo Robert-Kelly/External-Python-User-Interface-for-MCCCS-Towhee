@@ -32,5 +32,7 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
     standard deviations, and percent standard deviations, and print all data 
     to an output file
 
+*Note that detailed comments are given within the source code  
+
 ###Contributors
 Robert Kelly
