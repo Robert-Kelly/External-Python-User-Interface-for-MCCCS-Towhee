@@ -9,7 +9,7 @@ The software has been compiled with Python3.5 using the PyCharm Community Editio
 the Ubuntu command line. No warnings or weak warnings exist in the current version of the code.  
 
 ###Details
-The UI has been designed as an organziational, time saving, and data analysis tool for performing molecular 
+The UI has been designed as an organizational, time saving, and data analysis tool for performing molecular 
 simulations with Towhee on both personal computers, and clusters. The UI is composed of two scripts - towhee_initialize.py and towhee_collect.py - and has the following optional features: 
 
 1) towhee_initialize.py
@@ -18,7 +18,7 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
     each final directory with different random number seeds
   - automatically start simulations for equilibration and production
     stages
-  - automatically copy intial system configuration and molecule template
+  - automatically copy initial system configuration and molecule template
     files to directories
   - specify numerous input specifications from http://towhee.sourceforge.net/input/towhee_input_v7_0_x.html 
      within the script itself 
@@ -34,7 +34,7 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
 
 To use the UI, the 'towhee_initialize.py', 'towhee_collect.py', and 'towhee_input' source files must be place in the same directory. A symbolic link to the Towhee executable 'towhee' must be added for personal computers. Note this is simply a matter of taste over './towhee' when running test simulations manually. This can be easily implemented from the '/home/user/' directory with the 'vi .bashrc' command, and the addition of 'alias towhee=/home/user/path_to_executable'. The only additional step is to place all force field files in a directory '/home/user/ForceFields/'. This is required because the code concatenates strings to the force fields files based on this directory stack format.   
 
-'towhee_initialize.py' is currently set to auto create directories, auto copy input files, and auto start four methane simulations as a 100 molecule equilibration in the isobaric-isothermal ensemble.  Once the simulation is finished, 'towhee_collect.py' can be exectued to print an output file 'towhee_methane' with thermodynamic property averages and statistics.  
+'towhee_initialize.py' is currently set to auto create directories, auto copy input files, and auto start four methane simulations as a 100 molecule equilibration in the isobaric-isothermal ensemble.  Once the simulation is finished, 'towhee_collect.py' can be executed to print an output file 'towhee_methane' with thermodynamic property averages and statistics.  
 
 *Additional detailed comments are given within the source code  
 
