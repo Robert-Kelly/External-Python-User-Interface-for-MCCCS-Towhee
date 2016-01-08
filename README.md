@@ -36,7 +36,7 @@ To use the UI, the 'towhee_initialize.py', 'towhee_collect.py', and 'towhee_inpu
 
 'towhee_initialize.py' is currently set to auto create directories, auto copy input files, and auto start four methane simulations as a 100 molecules equilibration simulation in the isobaric-isothermal ensemble.  Once the simulation is finished, 'towhee_collect.py' will print an output file 'towhee_methane' with thermodynamic property averages and statistics.  
 
-*Note that detailed comments are given within the source code  
+*Additional detailed comments are given within the source code  
 
 ###Contributors
 Robert Kelly
