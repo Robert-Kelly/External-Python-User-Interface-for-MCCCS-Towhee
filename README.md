@@ -13,7 +13,7 @@ The UI has been designed as an organziational, time saving, and data analysis to
 simulations with Towhee on both personal computers, and clusters. The UI is composed of two scripts - towhee_initialize.py and towhee_collect.py - and has the following optional features: 
 
 1) towhee_initialize.py
-  - create pressure (P), temperature(T), and set specific directories.
+  - create pressure (P), temperature (T), and set specific directories.
   - automatically copy 'towhee_input' files at specified T and P to 
     each final directory with different random number seeds
   - automatically start simulations for equilibration and production
