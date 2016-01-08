@@ -27,8 +27,8 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
     files within T directories for simulations on a cluster
     
 2) towhee_collect.py
-  - automatically collect various thermodynamic property results from output
-    files from a single T and P for any number of sets, compute averages, 
+  - automatically collect various thermodynamic property results for up to two 
+    simulation boxes from a single T and P for any number of sets, compute averages, 
     standard deviations, and percent standard deviations, and print all data 
     to an output file
 
