@@ -10,8 +10,7 @@ the Ubuntu command line. No warnings or weak warnings exist in the current versi
 
 ###Details
 The UI has been designed as an organziational, time saving, and data analysis tool for performing molecular 
-simulations with Towhee on both personal computers, and clusters. The UI is composed of two scripts 
-- towhee_initialize.py and towhee_collect.py - and has the following optional features: 
+simulations with Towhee on both personal computers, and clusters. The UI is composed of two scripts - towhee_initialize.py and towhee_collect.py - and has the following optional features: 
 
 1) towhee_intialize.py
   - creates pressure (P), temperature(T), and set specific directories.
