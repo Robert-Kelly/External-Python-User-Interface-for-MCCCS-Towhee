@@ -5,7 +5,7 @@ The two Python scripts in source have been written in Python3.5 and are intended
 isobaric-isothermal, canonical, and Gibbs ensemble Monte Carlo simulations with Monte Carlo for Complex 
 Chemical Systems (MCCCS) Towhee version 7.1.0.  
 
-The software has been compiled with Python3.5 using the PyCharm Community Edition, and with Python3.4 using
+The software has been compiled with Python3.5 using the PyCharm Community Edition version 4.5.4, and with Python3.4 using
 the Ubuntu command line. No warnings or weak warnings exist in the current version of the code.  
 
 ###Details
@@ -21,9 +21,8 @@ simulations with Towhee on both personal computers, and clusters. The UI is comp
     stages
   - automatically copy intial system configuration and molecule template
     files to directories
-  - specify numerous input specifications from http://towhee.sourceforge.net/
-    input/towhee_input_v7_0_x.html within script using a generic 
-    'towhee_input' file or specify all input in the 'towhee_input' file 
+  - specify numerous input specifications from http://towhee.sourceforge.net/input/towhee_input_v7_0_x.html 
+     within script using a generic 'towhee_input' file or specify all input in the 'towhee_input' file 
   - automatically generate necessary 'towhee_parallel' and MPI executable 
     files within T directories for simulations on a cluster
     
