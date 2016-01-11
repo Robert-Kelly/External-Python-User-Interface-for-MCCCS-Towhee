@@ -1,0 +1,124 @@
+inputformat
+'Towhee'
+random_number_generator
+'DX-1597-2-7'
+random_seed
+insert_random
+random_allow_restart
+.false.
+ensemble
+ensemble_input
+temperature
+temperature_input
+pressure
+pressure_input
+nmolty
+nmolty_input
+nmolectyp
+nmolec_input
+numboxes
+numboxes_input
+stepstyle
+'cycles'
+nstep
+nstep_input
+controlstyle
+'manual'
+printfreq
+print_input
+blocksize
+blocksize_input
+moviefreq
+moviefreq_input
+backupfreq
+backup_input
+restartfreq
+restart_input
+runoutput
+'none'
+pdb_output_freq
+pbd_input
+pressurefreq
+pressure_freq
+trmaxdispfreq
+trmax_freq
+volmaxdispfreq
+volmax_freq
+chempotperstep
+chempot_per_step
+potentialstyle
+'internal'
+ffnumber
+numff_input
+ff_filename
+ff_input
+classical_potential
+potential_input
+classical_mixrule
+mixrule_input
+lshift
+.false.
+ltailc
+.true.
+rmin
+rmin_input
+rcut
+rcut_input
+rcutin
+rcutin_input
+electrostatic_form
+electro_input
+linit
+linit_input
+initboxtype
+'dimensions'
+initstyle
+initstyle_input
+initlattice
+initlattice_input
+initmol
+initmol_input
+inix iniy iniz
+initxyz_input
+hmatrix
+dimx_input
+dimy_input
+dimz_input
+pmvol
+0.01d0
+	pmvlpr
+	1.0d0
+	rmvol
+	0.1d0
+	tavol
+	0.5d0
+pmtracm
+1.0d0
+	pmtcmt
+	1.0d0
+	rmtrac
+	0.5d0
+	tatrac
+	0.5d0
+cbmc_formulation
+'Martin and Frischknecht 2006'
+cbmc_setting_style
+'Martin and Frischknecht'
+input_style
+'basic connectivity map'
+nunit
+1
+nmaxcbmc
+1
+lpdbnames
+F
+forcefield
+ff2_input
+charge_assignment
+charge_input
+unit ntype
+1    'CH4'
+vibration
+0
+improper torsion
+0
