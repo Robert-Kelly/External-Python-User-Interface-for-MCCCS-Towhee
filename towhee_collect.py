@@ -184,7 +184,7 @@ for P in pressList:
                         molecNum = line.replace("Molecule Number                1", "")
                         molecNum = molecNum.strip()
                         molecNumBox1.append(float(molecNum[0:8]))
-                        molecNumBox2.append(float(molecNum[12:19]))
+                        molecNumBox2.append(float(molecNum[11:19]))
 
                     if line.find("Molar Volume         ml/mol") != -1:
                         molarVolume = line.replace("Molar Volume         ml/mol", "")
