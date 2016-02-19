@@ -158,8 +158,8 @@ elif function == "equilibration" and template is False and config is True:
     lInit = ".false."
 
 elif function == "production":
-    trmaxFreq = int(nStep / 4)
-    volmaxFreq = int(nStep / 4)
+    trmaxFreq = int(nStep / 10)
+    volmaxFreq = int(nStep / 10)
     lInit = ".false."
 
 # The generic or 'base' input file from the initial directory is opened and all input data is read as 'allInput'
